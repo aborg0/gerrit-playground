@@ -1,4 +1,4 @@
-﻿language: java
+language: java
 
 sudo: false
 
@@ -9,7 +9,7 @@ cache:
     - $HOME/.ivy2
 
 before_install:
-  - cd gerrit-playground
+- cd gerrit-playground
 
 jdk:
   - oraclejdk8
